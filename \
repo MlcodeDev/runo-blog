@@ -146,18 +146,16 @@ header{
   justify-content: space-between;
   height: 5em;
   width: 100vw;
-  background: rgba(0, 0, 0, 0.20);
+  background-color: black;
 }
 
 .nav-logo {
   margin-left: 4.275em;
 }
-
-.nav-menus-wrapper {
-  padding-right: 1.063em;
-  border-right: .5px solid var(--clr-white-200);
-  margin-right: 1.063em;
+.nav-socials-wrapper {
+  display: none !important;
 }
+
 .nav-menus{
   display: flex;
   gap: 1.563em;
@@ -165,29 +163,10 @@ header{
 }
 
 .home-menu-link{
-  border-bottom: 2px solid var(--clr-yellow);
-  padding-bottom: 6px;
+  border: 1rem soild red;
 }
-
-.nav-menus-socials-wrapper{
-  display: flex;
-  flex-direction: row;
-  margin-right: 4.375em;
+.container {
+  width: min(var(--max-width), 100%);
+  margin-inline: auto;
 }
-
-.nav-socials-wrapper{
-  padding-right: 1.063em;
-  border-right: .5px solid var(--clr-white-200);
-  margin-right: 1.063em;
-}
-
-.nav-socials {
-  display: flex;
-  flex-direction: row;
-  gap: 1.125em;
-}
-/* .container { */
-/*   width: min(var(--max-width), 100%); */
-/*   margin-inline: auto; */
-/* } */
 
